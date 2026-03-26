@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qlik-cloud": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "QLIK_TENANT_URL": "https://YOUR-TENANT.us.qlikcloud.com",
+        "QLIK_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    }
+  }
+}
